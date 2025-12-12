@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arix Signature Tree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              arix: {
+                gold: '#D4AF37',
+                dark: '#021a0f',
+                emerald: '#0B3E25'
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['Lato', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { margin: 0; background-color: #021a0f; overflow: hidden; }
+      #root { width: 100vw; height: 100vh; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "maath/": "https://esm.sh/maath@^0.10.8/",
+    "three": "https://esm.sh/three@^0.182.0",
+    "postprocessing": "https://esm.sh/postprocessing@^6.38.0",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.4.2"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
